@@ -13,7 +13,7 @@ const start = async () => {
         fastify.log.info(`server listening on ${fastify.server.address().port}`)
     } catch (err) {
         fastify.log.error(err)
-      process.exit(1)
+        process.exit(1)
     }
   }
   start()
